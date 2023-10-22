@@ -159,3 +159,22 @@ nav a:hover {
 .features-card h3 {
   font-size: 24px;
 }
+
+.testimonial-wrapper {
+  background-color: #d4d4d4;
+  margin-top: 50px;
+}
+
+.testimonial {
+  max-width: 800px;
+  padding: 80px;
+}
+
+blockquote {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+figcaption {
+  font-weight: 800;
+}
