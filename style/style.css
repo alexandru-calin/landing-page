@@ -13,6 +13,7 @@ body {
   font-family: "Roboto Slab", serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: #f9faf8;
 }
 
 ul {
@@ -33,9 +34,18 @@ h6 {
   overflow-wrap: break-word;
 }
 
+h2 {
+  font-size: 36px;
+}
+
 img {
   display: block;
   max-width: 100%;
+}
+
+section {
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 header {
@@ -69,8 +79,6 @@ nav a:hover {
 }
 
 .hero {
-  max-width: 90%;
-  margin: 0 auto;
   display: grid;
   row-gap: 50px;
   column-gap: 80px;
@@ -105,7 +113,7 @@ nav a:hover {
   background-color: #f9faf8;
   border-radius: 5px;
   padding: 15px 25px;
-  color: #000;
+  color: #171717;
   transition: background-color 0.2s, color 0.2s;
 }
 
@@ -117,4 +125,37 @@ nav a:hover {
   grid-area: hero-img;
   border-radius: 5px;
   align-self: center;
+}
+
+.features {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  color: #171717;
+}
+
+.features ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.features-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+.features-card img {
+  width: 30%;
+}
+
+.features-card h3 {
+  font-size: 24px;
 }
